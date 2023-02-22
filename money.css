@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    background-color: turquoise;
+    padding: 10px;
+    width: 50%;
+    margin-top: 20px; 
+}
+
+
+#coins {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coin p {
+    font-size: 15px;
+}
+
+
+
+.penny {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(224, 106, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.nickel {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.dime {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quarter {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
